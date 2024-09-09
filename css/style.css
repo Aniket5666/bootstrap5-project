@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@keyframes cardimg_animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+.link_bar {
+  background-color: rgb(218, 218, 218);
+}
+.link_bar .nav-link {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.categorieslink_bar a {
+  color: black;
+}
+
+.sep_buzz {
+  background: linear-gradient(to bottom right, rgb(178, 226, 248), white);
+}
+.sep_buzz a {
+  text-decoration: none;
+  color: black;
+}
+.sep_buzz h4 {
+  font-size: 14px;
+}
+.sep_buzz p {
+  font-size: 12px;
+}
+.sep_buzz .sepbuzz_card {
+  overflow: hidden;
+}
+.sep_buzz .sepbuzz_card:hover img {
+  transform: scale(1.03);
+  animation: cardimg_animation 0.3s ease 0s 1 normal forwards;
+}
+
+.top_hits .carousel-item {
+  transition: all 5s ease-in-out;
+}
+
+.shopcategory_men {
+  background: linear-gradient(to bottom right, rgb(191, 230, 248), white);
+}
+.shopcategory_men .col {
+  overflow: hidden;
+}
+.shopcategory_men .col:hover img {
+  transform: scale(1.1);
+}
+
+.shopcategory_women {
+  background: linear-gradient(to bottom right, rgb(194, 232, 250), white);
+}
+.shopcategory_women .col {
+  overflow: hidden;
+}
+.shopcategory_women .col:hover img {
+  transform: scale(0.9);
+}
+
+.Bottom_pants a {
+  text-decoration: none;
+  color: black;
+}
+.Bottom_pants h4 {
+  font-size: 14px;
+}
+.Bottom_pants p {
+  font-size: 12px;
+}
+.Bottom_pants .carousel-item {
+  transition: all 0.2s ease-in-out;
+}
+.Bottom_pants .Bottomspants_card {
+  overflow: hidden;
+}
+.Bottom_pants .Bottomspants_card:hover img {
+  transform: scale(1.03);
+  filter: grayscale(1);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer h1 {
+  color: gold;
+  font-size: 1.5rem;
+}
+.footer h3 {
+  color: gold;
+  font-size: 1rem;
+}
+.footer button {
+  background-color: gold;
+}/*# sourceMappingURL=style.css.map */
